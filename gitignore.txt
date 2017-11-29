@@ -1,0 +1,11 @@
+Skapa gitinore
+
+1) Skapa en txt fil och döp den till .gitignore
+
+2) Välj spara som alla filer
+
+3) Lägg in de filändelse som du vill ignorerar se exempel nedanför
+
+*.exe
+*.zip
+*.rar

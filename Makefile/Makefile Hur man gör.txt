@@ -1,0 +1,29 @@
+C:\Users\Stefan\Google Drive\Algoritmer och Datastrukturer\Programmering Notepad++
+
+gcc conv-to-base.c = Filens namn när man skippar 
+skriva -o blir de a eller annat beroende på operationsystemet
+
+gcc -o conv.c conv.exe = Skapar en fil som heter conv.exe
+
+=========================
+
+main: main.c pos3D.o
+	gcc -o main main.c pos3D.o
+pos3D.o: pos3D.c pos3D.h
+	gcc -c pos3D.c
+
+=========================
+
+mingW32-make
+
+move makefil.mak makefile // För att flytta filen
+
+makefile.txt för att få de till en makefile -> move makefile.txt makefile
+
+=========================
+
+main: main.c tree.h
+	gcc -o $@ $<
+
+	tar de första värdet i arument listan och lägger in den
+

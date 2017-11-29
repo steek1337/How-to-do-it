@@ -1,0 +1,9 @@
+1) gcc main2.c -o testfile.exe
+
+gcc = Kompilerar programet
+
+main2.c = �r c filen i programet de kan finnas flera s�na som man beh�ver d� l�gga in exempel main2.c calc.c osv
+
+-o testfile.exe = Skapar en exe fil med namnet testfile.exe
+
+Vill man bara k�ra programet s� kan man alltid skippa -o s� skapas ist�llet en fil som heter a.exe
