@@ -1,0 +1,10 @@
+pen the registry editor (regedit) and navigate to the following key:
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Nls\CodePage
+Edit the OEMCP value on the right and change it from the default (861?) to 1252.
+
+Now open a new command-prompt and type chcp to see the current codepage. (It may—probably?—will not take until you reboot.)
+
+
+
+Ändrade OEMCP värdet från 850 till 1252
